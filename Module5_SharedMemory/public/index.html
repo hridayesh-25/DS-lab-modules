@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mess Feedback Live Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🍽️ Mess Feedback Live Counter</h1>
+    <p class="subtitle">Module 5: Shared Memory</p>
+
+    <div class="buttons">
+        <button onclick="sendFeedback('good')">👍 Good</button>
+        <button onclick="sendFeedback('average')">😐 Average</button>
+        <button onclick="sendFeedback('poor')">👎 Poor</button>
+    </div>
+
+    <div class="results">
+        <p>👍 Good: <span id="good">0</span></p>
+        <p>😐 Average: <span id="average">0</span></p>
+        <p>👎 Poor: <span id="poor">0</span></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

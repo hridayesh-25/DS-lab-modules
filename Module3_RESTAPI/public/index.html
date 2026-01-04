@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hostel Notice Board System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📢 Hostel Notice Board System</h1>
+    <p class="subtitle">Module 3: REST API (Python)</p>
+
+    <!-- ADMIN -->
+    <h2>Admin Panel</h2>
+    <input id="title" placeholder="Notice Title">
+    <textarea id="message" placeholder="Notice Message"></textarea>
+    <button onclick="postNotice()">Post Notice</button>
+
+    <hr>
+
+    <!-- STUDENT -->
+    <div class="student-header">
+        <h2>Student View</h2>
+        <button onclick="loadNotices()">Refresh</button>
+    </div>
+
+    <div id="notices"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

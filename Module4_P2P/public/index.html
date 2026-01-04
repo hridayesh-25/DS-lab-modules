@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resource Sharing System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Student Resource Sharing System</h1>
+        <p class="subtitle">Module 4: Peer-to-Peer (P2P)</p>
+        
+        <div class="main-content">
+            <div class="section">
+                <h2>Select Peer</h2>
+                <select id="peerSelect" class="select-input">
+                    <option value="">Choose a peer...</option>
+                </select>
+                <button id="refreshPeersBtn">Refresh Peers</button>
+            </div>
+
+            <div class="section">
+                <h2>Available Files</h2>
+                <button id="listFilesBtn">List Files</button>
+                <div id="filesList" class="files-list"></div>
+            </div>
+
+            <div class="section">
+                <h2>Download File</h2>
+                <div class="form-group">
+                    <input type="text" id="downloadFileName" 
+                           placeholder="Enter file name to download">
+                    <button id="downloadBtn">Download</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Upload File</h2>
+                <div class="form-group">
+                    <input type="file" id="fileInput" accept=".pdf,.txt,.doc,.docx">
+                    <button id="uploadBtn">Upload to Shared Folder</button>
+                </div>
+                <p class="info">Note: Place files in the 'shared_PeerName' folder for sharing</p>
+            </div>
+
+            <div id="status" class="status-box"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

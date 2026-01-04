@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hostel Complaint System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>🏠 Hostel Complaint Management System</h2>
+    <p class="subtitle">Module 1: Socket Programming</p>
+
+    <div class="form-box">
+        <input id="room" placeholder="Room Number">
+        <select id="category">
+            <option value="">Select Category</option>
+            <option>Water</option>
+            <option>Electricity</option>
+            <option>Cleanliness</option>
+            <option>Other</option>
+        </select>
+        <textarea id="desc" placeholder="Describe complaint"></textarea>
+
+        <button onclick="submitComplaint()">Submit Complaint</button>
+        <p id="status"></p>
+    </div>
+
+    <hr>
+
+    <h3>📋 Complaints Received (Live)</h3>
+    <div id="complaints"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

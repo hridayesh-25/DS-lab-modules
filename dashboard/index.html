@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Distributed Systems – Integrated Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌐 Distributed Systems Project</h1>
+    <p class="subtitle">
+        Integrated Demonstration of 5 Core Distributed Systems Concepts
+    </p>
+
+    <div class="module-grid">
+
+        <div class="module-card">
+            <h2>Module 1: Socket Programming</h2>
+            <p>
+                Client–server communication using low-level TCP sockets for
+                hostel complaint submission.
+            </p>
+            <button onclick="openModule('C:\\Users\\hrida\\OneDrive\\Desktop\\DS\\Module1_SocketProgramming\\public\\index.html')">
+                Open Module 1
+            </button>
+        </div>
+
+        <div class="module-card">
+            <h2>Module 2: Java RMI</h2>
+            <p>
+                Remote Method Invocation to retrieve hostel room and warden
+                details from a remote object.
+            </p>
+            <button onclick="openModule('C:\\Users\\hrida\\OneDrive\\Desktop\\DS\\Module2_JavaRMI\\frontend\\index.html')">
+                Open Module 2
+            </button>
+        </div>
+
+        <div class="module-card">
+            <h2>Module 3: RPC (REST API)</h2>
+            <p>
+                REST-based notice board system demonstrating stateless
+                client–server interaction.
+            </p>
+            <button onclick="openModule('C:\\Users\\hrida\\OneDrive\\Desktop\\DS\\Module3_RESTAPI\\public\\index.html')">
+                Open Module 3
+            </button>
+        </div>
+
+        <div class="module-card">
+            <h2>Module 4: Peer-to-Peer (P2P)</h2>
+            <p>
+                Decentralized resource sharing where each peer acts as both
+                client and server without central storage.
+            </p>
+            <button onclick="openModule('../Module4_P2P/public/index.html')">
+                Open Module 4
+            </button>
+        </div>
+
+        <div class="module-card">
+            <h2>Module 5: Shared Memory</h2>
+            <p>
+                Live mess feedback counter using shared memory and semaphores
+                to prevent race conditions.
+            </p>
+            <button onclick="openModule('../Module5_SharedMemory/public/index.html')">
+                Open Module 5
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<script>
+function openModule(path) {
+    window.open(path, "_blank");
+}
+</script>
+
+</body>
+</html>

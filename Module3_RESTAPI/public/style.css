@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #2bc0ff, #00eaff);
+}
+
+.container {
+    background: white;
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.subtitle {
+    color: gray;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #2bc0ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.student-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .notice {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+} */
+.date {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+.notice {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}

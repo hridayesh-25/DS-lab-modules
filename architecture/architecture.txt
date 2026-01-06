@@ -1,0 +1,1 @@
+this folder contain architecture diagrams of all modules

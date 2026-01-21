@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, hsl(187, 93%, 78%) 0%, #f5576c 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -75,7 +75,7 @@ input[type="text"]:focus {
 button {
     flex: 1;
     padding: 14px;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, hsl(187, 93%, 78%) 0%, #5769f5 100%);
     color: white;
     border: none;
     border-radius: 8px;

@@ -1,4 +1,19 @@
+let isConnected = false;
+
 const ws = new WebSocket("ws://localhost:8080");
+
+ws.onopen = () => {
+    isConnected = true;
+};
+
+ws.onclose = () => {
+    isConnected = false;
+};
+
+ws.onerror = () => {
+    isConnected = false;
+};
+
 
 ws.onmessage = (event) => {
     const msg = JSON.parse(event.data);
@@ -21,6 +36,11 @@ function submitComplaint() {
     if (!room || !category || !desc) {
         status.style.color = "red";
         status.innerText = "⚠️ All fields are mandatory";
+        return;
+    }
+    if (!isConnected || ws.readyState !== WebSocket.OPEN) {
+        status.style.color = "red";
+        status.innerText = "❌ Server not connected";
         return;
     }
 

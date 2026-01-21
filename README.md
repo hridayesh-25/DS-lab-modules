@@ -60,6 +60,8 @@ Complaints are sent to a backend server using **socket programming** and stored 
 
 Understanding low-level network communication using sockets.
 
+![module-1 UI](image.png)
+
 ---
 
 ## 🔹 Module 2: Java RMI
@@ -92,6 +94,8 @@ The information is fetched from a **remote Java object** using RMI.
 
 Understanding distributed object-based systems.
 
+![module-2 UI](image-1.png)
+
 ---
 
 ## 🔹 Module 3: RPC (REST API)
@@ -118,6 +122,8 @@ Communication is done using **HTTP REST APIs**.
 ### Learning Outcome
 
 Understanding service-based communication over HTTP.
+
+![module-3 UI](image-2.png)
 
 ---
 
@@ -146,6 +152,8 @@ Each peer acts as **both client and server**, and there is **no central file sto
 
 Understanding decentralized distributed systems.
 
+![module-4 UI](image-3.png)
+
 ---
 
 ## 🔹 Module 5: Shared Memory
@@ -172,6 +180,8 @@ Feedback counts are stored in a **shared memory segment**, and updates are synch
 ### Learning Outcome
 
 Understanding inter-process communication and synchronization.
+
+![module-5 UI](image-4.png)
 
 ---
 
